@@ -6,23 +6,49 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
-        <title>Template</title>
+        <title>Weather Dashboard</title>
     </head>
     <body>
         <header>
             <h1>Weather Dashboard</h1>
         </header>
         <div class="container">
-            <div class="card col-3" id="browser">
-                <h3>Search for a city:</h3>
-                <input type="text" id="enter-city" name="enter-city">
-                <button class="btn" id="search">Search</button>
-                <ul id="previous-searches"></ul>
+            <div class="row">
+                <div class="card col-3" id="browser">
+                    <h3>Search for a city:</h3>
+                    <input type="text" id="enter-city" name="enter-city">
+                    <button class="btn" id="search">Search</button>
+                    <ul id="previous-searches"></ul>
+                </div>
+                <div class="card col-9" id="forecast">
+                    <h3 id="city-name"></h3>
+                    <h3 id="current-date"></h3>
+                    <p>Forecast:</p>
+                    <p>Temp:</p>
+                    <p>Wind:</p>
+                    <p>Humidity:</p>
+                </div>
             </div>
-            <div class="col-9" id="forecast"></div>
+            <div class="row" id="five-days">
+                <div class="card card-primary col-3">
+                    <h4 id="dateOne"></h4>
+                </div>
+                <div class="card card-primary col-3">
+                    <h4 id="dateTwo"></h4>
+                </div>
+                <div class="card card-primary col-3">
+                    <h4 id="dateThree"></h4>
+                </div>
+                <div class="card card-primary col-3">
+                    <h4 id="dateFour"></h4>
+                </div>
+                <div class="card card-primary col-3">
+                    <h4 id="dateFive"></h4>
+                </div>
+            </div>
         </div>
-        <script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script href="./assets/js/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
