@@ -30,7 +30,8 @@ header h1 {
     margin-bottom: 15px;
 }
 
-#enter-city {
+#enter-city,
+#enter-country {
     width: 100%;
     height: 35px;
 }
