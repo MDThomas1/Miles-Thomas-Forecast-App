@@ -18,6 +18,10 @@ header h1 {
     margin-top: 10px;
 }
 
+#immediate {
+    margin-bottom: 30px;
+}
+
 #search {
     width: 100%;
     color: azure;
