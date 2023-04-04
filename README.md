@@ -1,4 +1,4 @@
-# Miles-Thomas-homework-task-6
+# Miles-Thomas-Forecast-App
 ## URL to Webpage 
 https://mdthomas1.github.io/Miles-Thomas-homework-task-6/
 
