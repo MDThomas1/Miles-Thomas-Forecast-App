@@ -1,6 +1,6 @@
 # Miles-Thomas-Forecast-App
 ## URL to Webpage 
-https://mdthomas1.github.io/Miles-Thomas-homework-task-6/
+https://mdthomas1.github.io/Miles-Thomas-Forecast-App/
 
 ## Screenshot
 <img src=./assets/weather-screenshot.png>
